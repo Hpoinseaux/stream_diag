@@ -425,7 +425,7 @@ selected_siren = st.selectbox(
     format_func=lambda code: f"{epci_lookup.get(code, '')}",
 )
 
-uploaded_epci = st.file_uploader("Fichier epci_22 (.xlsx)", type=["xlsx"])
+uploaded_epci = st.file_uploader("Fichier ede l'epci(.xlsx)", type=["xlsx"])
 
 if st.button("Calculer", disabled=uploaded_epci is None):
     params = load_params()
