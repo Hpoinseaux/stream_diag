@@ -23,6 +23,6 @@ Thumbs.db
 .ipynb_checkpoints/
 
 #autres
-epci_22.xlsx
-score_externe.xlsx
 generate_external_scores.py
+score_externe.xlsx
+template/

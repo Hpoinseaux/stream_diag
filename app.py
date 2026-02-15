@@ -11,7 +11,6 @@ BASE_DIR = Path(__file__).resolve().parent
 SOURCE_DIR = BASE_DIR / "source"
 PARAMS_PATH = SOURCE_DIR / "Parametres_indicateurs.csv"
 EPCI_PATH = SOURCE_DIR / "epci_membres .csv"
-EXTERNAL_META_PATH = SOURCE_DIR / "i_coef_externe.csv"
 EXTERNAL_SCORES_CSV = BASE_DIR / "score_indicateurs.csv"
 MAPPING_PATH = SOURCE_DIR / "Répartition_moyenne.csv"
 INDICATOR_COL_PATTERN = re.compile(r"^i\d{3}", re.IGNORECASE)
@@ -42,12 +41,17 @@ def load_mapping() -> pd.DataFrame:
     return pd.read_csv(MAPPING_PATH, dtype=str, low_memory=False)
 
 
-@st.cache_data(show_spinner=False)
-def load_external_coeffs() -> pd.DataFrame:
-    df = pd.read_csv(EXTERNAL_META_PATH, dtype=str, low_memory=False)
+def load_external_coeffs(file: st.runtime.uploaded_file_manager.UploadedFile) -> pd.DataFrame:
+    if file is None:
+        raise ValueError("Aucun fichier de coefficients externes fourni.")
+
+    file.seek(0)
+    df = pd.read_excel(file, dtype=str)
     if "ID_indicateurs" in df.columns and "ID_indicateur" not in df.columns:
         df = df.rename(columns={"ID_indicateurs": "ID_indicateur"})
     df = df.rename(columns=str.strip)
+    if "ID_indicateur" not in df.columns:
+        raise ValueError("La colonne ID_indicateur est absente du fichier des coefficients externes.")
     df["ID_indicateur"] = df["ID_indicateur"].astype(str).str.strip().str.lower()
     df["Exclusion"] = df.get("Exclusion", "Non").astype(str)
     df["Coef_ponderation"] = df.get("Coef_ponderation", 1).astype(str)
@@ -388,6 +392,7 @@ st.markdown(
       <ol>
         <li>Sélectionnez l'EPCI ciblé dans la liste.</li>
         <li>Chargez votre fichier <strong>epci</strong> (.xlsx).</li>
+        <li>Chargez le fichier <strong>coefficients externes</strong> (.xlsx) fourni, basé sur le template.</li>
         <li>Cliquez sur <strong>Calculer</strong> pour générer les deux CSV.</li>
       </ol>
     </div>
@@ -401,10 +406,6 @@ if not EPCI_PATH.exists():
 
 if not PARAMS_PATH.exists():
     st.error("Le fichier Parametres_indicateurs.csv est introuvable dans le dossier streamlit.")
-    st.stop()
-
-if not EXTERNAL_META_PATH.exists():
-    st.error("Le fichier i_coef_externe.csv est introuvable dans le dossier streamlit/source.")
     st.stop()
 
 if not EXTERNAL_SCORES_CSV.exists():
@@ -426,8 +427,13 @@ selected_siren = st.selectbox(
 )
 
 uploaded_epci = st.file_uploader("Fichier de l'epci(.xlsx)", type=["xlsx"])
+uploaded_external_coeffs = st.file_uploader(
+    "Fichier coefficients externes (.xlsx)", type=["xlsx"], key="external_coeffs"
+)
 
-if st.button("Calculer", disabled=uploaded_epci is None):
+if st.button(
+    "Calculer", disabled=uploaded_epci is None or uploaded_external_coeffs is None
+):
     params = load_params()
     mapping = load_mapping()
     external_coeffs = load_external_coeffs()
@@ -437,6 +443,7 @@ if st.button("Calculer", disabled=uploaded_epci is None):
         internal_scored = build_scored_internal(epci_df, params)
         internal_scored = with_numeric_scores(internal_scored)
 
+        external_coeffs = load_external_coeffs(uploaded_external_coeffs)
         external_scores = load_external_scores(selected_siren, external_dataset)
         external_table = build_external_table(external_scores, external_coeffs)
         external_table = with_numeric_scores(external_table)
