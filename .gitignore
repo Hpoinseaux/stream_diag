@@ -1,0 +1,28 @@
+# Python cache / build
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Streamlit secrets/local overrides
+.streamlit/secrets.toml
+.env
+.env.*
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+#autres
+epci_22.xlsx
+score_externe.xlsx
+generate_external_scores.py

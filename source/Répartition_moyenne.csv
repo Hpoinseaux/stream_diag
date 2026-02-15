@@ -1,0 +1,168 @@
+ID_indicateurs,Libellé_indicateurs,b01_Avoir accès à l'eau douce,b02_Avoir accès à l'énergie,b03_Se loger,b04_Se déplacer,b05_Se soigner,b06_Être en lien avec la nature,b07_Produire et s'approvisionner localement,b08_S'informer et s'instruire,b09_Se nourrir,b10_Être en sécurité,b11_Vivre ensemble et faire société,o1_Subsistance,o2_Gestion-de-crise,o3_Soutenabilité,Typ1_Etat,Typ2_Action
+i001,"Couverture effective du territoire par au moins un outil de planification et de gestion de l’eau (SAGE, PGRE, PTGE, contrat de milieu)",x,,,,,,,,,,,x,x,x,,X
+i002,Existence d'un schéma directeur de l'eau potable de moins de 10 ans,x,,,,,,,,,,,x,x,x,,X
+i003,Identification d'un agent-référent sur les enjeux relatifs à l'eau,x,,,,,,,,x,,,x,x,x,,X
+i004,Identification d'un élu-référent sur les enjeux relatifs à l'eau,x,,,,,,,,x,,,x,x,x,,X
+i005,Taux de conformité physicochimique de l’eau distribuée au robinet,x,,,,,,,,,,,x,,x,X,
+i006,Taux de conformité microbiologique de l’eau distribuée au robinet,x,,,,,,,,,,,x,,x,X,
+i007,Existence d’un diagnostic territorial sur les conditions d'accès à l'eau de consommation humaine,x,,,,,,,,,,,x,,,,X
+i008,Mise en œuvre de mesures permettant de garantir l’accès à l’eau de consommation humaine (Art. L2224-7-3 CGCT),x,,,,,,,,,,,x,,,,X
+i009,Existence de dispositifs de protection sociale des abonnés pour l’accès à l’eau,x,,,,,,,,,,x,x,,,,X
+i010,Part moyenne du territoire en alerte sécheresse en période estivale,x,,,,,,,,x,,,x,x,x,X,
+i011,Existence et mise en œuvre d’un Plan de gestion de la sécurité sanitaire des eaux (PGSSE),x,,,,,,,,,,,x,x,x,,X
+i012,Fréquence des interruptions de service non programmées pour l’eau potable,x,,,,,,,,,,,x,,,X,
+i013,Durée d’autonomie du service d’eau,x,,,,,,,,,,,x,,,,X
+i014,"Nombre de de ressources alternatives pour l’alimentation en eau potable (interconnexion, stocks stratégiques d’eau et/ou de moyens de potabilisation alternatifs d’urgence)",x,,,,,,,,,,,x,x,,,X
+i015,Indice Linéaire des Volumes non comptés (ILVNC),x,,,,,,,,,,,x,,,X,
+i016,Existence d’une tarification progressive de l’eau,x,,,,,,,,,,x,x,,x,,X
+i017,Prélèvements d’eau à usage domestique par habitant et par an,x,,,,,,,,,,,x,,x,X,
+i018,Conformité des performances des équipements d'épuration,x,,,,,,,,,,,x,,x,X,
+i019,Part de l'approvisionnement en eau douce issus de sources superficielles,x,,,,,,,,x,,,,x,,X,
+i020,Existence d'un schéma directeur des énergies (SDE) à jour et mis en oeuvre,,x,,,,,,,,,,x,,x,,X
+i021,Consommation énergétique du secteur résidentiel par habitant,,x,x,,,,,,,,,,,x,X,
+i022,"Identification du territoire comme une zone électrique fragile
+",,x,,,,,,,,,,,x,,X,
+i023,Émissions de gaz à effet de serre énergétiques territoriales par habitant,,x,,,,,,,,,,,,x,X,
+i024,Existence d'un PCAET à jour et mis en oeuvre,,x,x,x,x,,,,,,,x,,x,,X
+i025,"Niveau d'ambition de la trajectoire de réduction des consommations d'énergie par habitant, par rapport à l'objectif national de -50% en 2050",,x,x,x,,,x,,,,,,,x,,X
+i026,Identification d'un agent-référent sur les enjeux énergétiques,,x,,,,,,,,,,x,x,x,,X
+i027,Identification d'un élu-référent sur les enjeux énergétiques,,x,,,,,,,,,,x,x,x,,X
+i028,Identification d'un agent-référent sur les enjeux de logement,,,x,,,,,,,,,x,x,x,,X
+i029,Identification d'un élu-référent sur les enjeux de logement,,,x,,,,,,,,,x,x,x,,X
+i030,Existence d'un Plan Local de l'Habitat (PLH) à jour et mis en oeuvre,,,x,,,,,,,,,x,,x,,X
+i031,Nombre de personnes sans domicile fixe pour 100.000 habitants,,,x,,,,,,,,x,x,,,X,
+i032,Part des logements en situation de sur-occupation,,,x,,,,,,,,x,x,,,X,
+i033,Part des logements en situation de sous-occupation très accentuée,,,x,,,,,,,,,x,,x,X,
+i034,Taux de précarité énergétique liée au logement,,x,x,,,,,,,,,x,,,X,
+i035,Taux de résidences secondaires,,,x,,,,,,,,,x,,,X,
+i036,Part des logements sociaux dans l'ensemble des logements,,,x,,,,,,,,x,x,,,,X
+i037,Taux d'évolution annuel du nombre de logements sociaux (RPLS) (%) 2019-2023,,,x,,,,,,,,x,x,,,,X
+i038,Taux de logements vacants,,,x,,,,,,,,,x,,,X,
+i039,Existence d'un document identifiant les zones de logement exposées aux risques climatiques,,,x,,,,,,,x,,,x,,,X
+i040,Nombre de places d'hébergement généraliste pour les personnes vulnérables pour 100.000 hab.,,,x,,,,,,,,x,x,x,,,X
+i041,Identification (dans un document-cadre) des lieux refuge de chaque commune ,,,x,,,,,,,x,,,x,,,X
+i042,Existence de dispositions ou outils réglementaires ou volontaires permettant de répondre au besoin de logement des résidents.,,,x,,,,,,,,x,x,,,,X
+i043,"Part des logements ""passoires énergétiques"" (étiquettes F ou G) dans le parc de logements",,x,x,,,,,,,,,x,,x,X,
+i044,Part des résidences principales chauffées au gaz ou au fioul,,x,x,,x,,,,,,,,,x,X,
+i045,"Mise en œuvre effective du service public de la rénovation de l’habitat, à travers un dispositif d’accompagnement technique et financier",,,x,,,,,,,,,x,,x,,X
+i046,"Existence d'un document-cadre en matière de mobilité durable (PDM, PDMs, schéma directeur..) à jour et en cours de mise en oeuvre",,,,x,,,,,,,,x,,x,,X
+i047,Part de la population se situant à plus de 7 min en voiture des équipements de gamme de proximité,,,,x,,,x,,,,,x,,,X,
+i048,Part de la population se situant à plus de 15 min en voiture des équipements de gamme intermédiaire,,,,x,,,x,x,,,,x,,,X,
+i049,Taux de précarité énergétique mobilité,,x,,x,,,x,,,,,x,,,X,
+i050,"Nombre d'itinéraires d'évacuation et de secours : axes routiers (départementaux et nationaux), ferroviaires (voies ferrées) et maritimes (liaison)",,,,x,,,,,,x,,,x,,X,
+i051,Part des déplacements domicile-travail en voiture,,,,x,,,,,,,,,,x,X,
+i052,Evolution de la part des déplacements domicile-travail en voiture (points de %) sur la période 2016-2022,,,,x,,,,,,,,,,x,,X
+i053,Distance moyenne entre le domicile et le tavail,,,,x,,,x,,,,,x,,x,X,
+i054,"Part du parc automobile local électrifié
+",,x,,x,,,,,,,,,,x,X,
+i055,Existence d'un service de transport en commun intercommunal (bus ou transport à la demande),,,,x,,,,,,,,x,,x,,X
+i056,Nombre de stations de transport en commun pour 1000 habitants,,,,x,,,,,,,,x,,x,,X
+i057,Part de voitures particulières en circulation avec vignette Crit'Air E ou Crit’Air 1,,,,x,x,,,,,,,,,x,X,
+i058,Nombre de kilomètres d'aménagements cyclables par km2 urbanisé,,,,x,,,,,,,,,,x,,X
+i059,Identification d'un agent-référent sur les enjeux de mobilité,,,,x,,,,,,,,x,x,x,,X
+i060,Identification d'un élu référent sur les enjeux de mobilité,,,,x,,,,,,,,x,x,x,,X
+i061,Identification d'un agent-référent sur les enjeux de santé,,,,,x,,,,,,,x,x,x,,X
+i062,Identification d'un élu référent sur  les enjeux de santé,,,,,x,,,,,,,x,x,x,,X
+i063,Existence d'un Contrat Local de Santé à jour et en cours de mise en oeuvre,,,,,x,x,,,,,,x,,,,X
+i064,Accessibilité potentielle localisée (APL) aux médecins généralistes de 65 ans et moins,,,,,x,,,,,,,x,,,X,
+i065,Part de la population éloignée de plus de 20 minutes d'au moins un des 5 services de santé de proximité,,,,x,x,,,,,,,x,,,X,
+i066,Densité d’officines de Pharmacie,,,,x,x,,,,,,,x,x,,X,
+i067,Accessibilité potentielle localisée (APL) aux infirmiers de 65 ans et moins,,,,,x,,,,,,,x,,,X,
+i068,Accessibilité potentielle localisée (APL) aux sage-femmes de 65 ans et moins,,,,,x,,,,,,,x,,,X,
+i069,Accessibilité Potentielle Localisée aux Chirurgiens-Dentistes de 65 ans et moins,,,,,x,,,,,,,x,,,X,
+i070,Taux d’équipement en Médecine-Chirurgie-Obstétrique (nombre de lits / places),,,,,x,,,,,,,x,,,X,
+i071,Part des forêts et milieux semi-naturels sur la surface totale du territoire,,,,,,x,,,,,,,,x,X,
+i072,Nombre d'établissements industriels dépassant les seuils de déclaration d'émission de polluants atmosphériques pour 100.000 habitants,,,,,x,x,x,,,,,,,x,X,
+i073,Part du territoire en zone protégée,,,,,,x,,,,,,,,x,X,
+i074,Nombre de jours d'épisode de pollution de l'air par an,,,,,x,x,,,,,,x,,x,X,
+i075,Existence d’un coefficient de biotope ou de pleine terre dans le plan local d’urbanisme intercommunal ou dans chaque PLU,,,x,,,x,,,,,,,,x,,X
+i076,"Cartographie des sentiers de randonnée et espaces naturels accessibles au public (Plan de randonnée, SIG...)",,,,,x,x,,,,,,x,,,,X
+i077,Part de la surface du territoire consommée entre 2009 et 2021,,,x,,,x,x,,,,,,,x,,X
+i078,Part des communes couvertes par un Atlas de la Biodiversité Communale (ABC),,,,,,x,,x,,,,,,x,,X
+i079,"Identification d'un agent-référent sur les enjeux des espaces verts, des milieux naturels et de la biodiversité",,,,,,x,,,,,,x,x,x,,X
+i080,"Identification d'un élu-référent sur les enjeux des espaces verts, des milieux naturels et de la biodiversité",,,,,,x,,,,,,x,x,x,,X
+i081,Existence d'un document-cadre intercommunal pour la protection de la biodiversité,,,,,,x,,,,,,,,x,,X
+i082,Existence d'un document-cadre en matière d'économie circulaire,,,,,,,x,,,,,x,,x,,X
+i083,Nombre d’équipements total pour 1000 habitants,,,,,,,x,,,,,x,,,X,
+i084,Part des emplois de la sphère présentielle,,,,,,,x,,,,,x,,,X,
+i085,"Part des emplois jugés ""à risque"" dans un contexte de transformation de l'économie française vers une société bas-carbone",,,,,,,x,,,,,x,,x,X,
+i086,Indicateur de dépendance économique (taux d'actifs / taux d'inactifs),,,,,,,x,,,,x,x,,,X,
+i087,Part des emplois dans l’économie sociale et solidaire dans l'ensemble de l'économie,,,,,,,x,,,,,x,,x,X,
+i088,Existence d'un dispositif de tarification incitative sur la collecte des déchets (taxe ou redevance),,,,,,,x,,,,,,,x,,X
+i089,Taux de valorisation matière et organique des déchets ménagers et assimilés,,,,,,,x,,,,,,,x,,X
+i090,Part des achats publics intégrant au moins une considération environnementale,,,,,,,x,,,,,,,x,,X
+i091,Identification d'un agent-référent sur les enjeux économiques,,,,,,,x,,,,,x,x,x,,X
+i092,Identification d'un élu référent sur les enjeux économiques,,,,,,,x,,,,,x,x,x,,X
+i093,Existence d'un Projet Éducatif Territorial (PEDT),,,,,,,,x,,,x,x,,x,,X
+i094,Indice de fragilité numérique,,,,,,,,x,,,x,x,,,X,
+i095,Nombre de lieux de médiation numérique pour 10.000 habitants,,,,,,,,x,,,,x,,,X,
+i096,Nombre de médias locaux indépendants à l'échelle départementale,,,,,,,,x,,,,x,,,X,
+i097,Distance moyenne aux bibliothèques,,,,x,,,,x,,,,x,,,X,
+i098,Part des établissements scolaires engagés dans une démarche globale de développement durable (label E3D),,,,,,,,x,,,,,,x,,X
+i099,Part des communes du territoire de plus de 5000 habitants disposant d’une programmation événementielle en lien avec la transition écologique et la résilience territoriale,,,,,,,,x,,,x,x,x,x,,X
+i100,Existence d’un dispositif d’éco-conditionnalité des aides aux acteurs et projets associatifs,,,,,,,,x,,,,,,x,,X
+i101,Identification d'un agent-référent sur les enjeux éducationnels et informationnels,,,,,,,,x,,,,x,x,x,,X
+i102,Identification d'un élu-référent sur les enjeux éducationnels et informationnels,,,,,,,,x,,,,x,x,x,,X
+i103,Identification d'un agent-référent sur les enjeux alimentaires,,,,,,,,,x,,,x,x,x,,X
+i104,Identification d'un élu-référent sur les enjeux alimentaires,,,,,,,,,x,,,x,x,x,,X
+i105,Existence d’un Projet Alimentaire Territorial à jour et mis en oeuvre,,,,,,,x,,x,,,x,x,x,,X
+i106,Evolution de la Surface Agricole Utile entre 2010 et 2020,,,,,,,x,,x,,,x,,,,X
+i107,Nombre de marchés alimentaires hebdomadaires pour 1000 habitants,,,,,,,x,,x,,x,x,,,,X
+i108,Accessibilité théorique aux commerces alimentaires à vélo,,,,x,,,,,x,,,,,x,X,
+i109,Part de la restauration collective respectant les critères d'approvisionnement de la loi Egalim,,,,,x,,,,x,,,x,,x,,X
+i110,Évolution des actifs agricoles entre 2008 et 2019,,,,,,,x,,x,,,x,,,X,
+i111,Adéquation théorique entre la production agricole et la consommation du territoire,,,,,,,x,,x,,,x,x,,X,
+i112,Part de la surface agricole en agriculture Biologique sur la surface agricole utile,,,,,x,,,,x,,,x,,x,X,
+i113,Part de la Surface Agricole Utile sur la superficie totale du territoire,,,,,,,x,,x,,,x,,,X,
+i114,Quantité annuelle d'achats de substances actives rapporté à la SAU du territoire,,,,,x,,,,x,,,x,,x,X,
+i115,Score d'impact des pratiques agricoles sur la biodiversité,,,,,,x,,,x,,,,,x,X,
+i116,Identification d'un agent-référent sur les enjeux de sauvegarde,,,,,,,,,,x,,x,x,x,,X
+i117,Identification d'un élu-référent sur les enjeux de sauvegarde,,,,,,,,,,x,,x,x,x,,X
+i118,Part des communes couvertes par un PCS adopté depuis 2020,,,,,,,,,,x,,,x,,,X
+i119,Nombre de risques majeurs auxquels sont exposées les communes du territoire,,,,,,,,,,x,,,x,,X,
+i120,Part des communes dotées d'une Réserve Citoyenne de Sécurité Civile (RCSC),,,,,,,,,,x,x,,x,,,X
+i121,Existence d'un recensement des sites et événements sensibles,,,,,,,,,,x,,,x,,,X
+i122,"Identification dans un document-cadre (PiCS, note interne..) des associations agréées de sécurité civile avec lesquelles les communes du territoire ont des conventions",,,,,,,,,,x,,,x,,,X
+i123,"Existence d'un document-cadre en matière de résilience numérique (shéma directeur, PCA...) à jour et mis en oeuvre",,,,,,,,,,x,,,x,,,X
+i124,Existence d'une Convention Territoriale Globale (CTG) comprenant une analyse des besoins sociaux à jour et en cours de mise en oeuvre,,,,,,,,,,,x,x,,,,X
+i125,Reconnaissance de l'engagement de l'Office de Tourisme dans la transition écologique,,,,,,,,x,,,x,,,x,,X
+i126,Part des ménages d'une seule personne,,,,,,,,,,,x,x,x,,X,
+i127,Taux de pauvreté,,,,,x,,,,,,x,x,,,X,
+i128,Part des jeunes (15-24 ans) non insérés,,,,,,,x,x,,,x,x,,,X,
+i129,Taux de participation aux élections municipales 2020,,,,,,,,x,,,x,x,,,X,
+i130,Taux de couverture accueil jeune enfant pour 100 enfants de moins de 3 ans,,,,,,,,,,,x,x,,,,X
+i131,Nombre d'associations pour 1000 habitants,,,,,,,,x,,,x,x,x,,X,
+i132,Nombre de structures de l’animation de la vie sociale agréée par la CAF (Centre social ou Espace de vie sociale) à l'échelle intercommunale pour 100.000 habitants,,,,,,,,,,,x,x,,,,X
+i133,Nombre d'événements grand public festifs et fédérateurs organisés ou soutenus par la collectivité par an pour 100.000 habitants,,,,,,,,,,,x,x,,,,X
+i134,Rapport interdécile du niveau de vie (9e décile / 1er décile),,,,,,,,,,,x,x,,,X,
+i135,Différence entre le taux d'emploi des femmes et des hommes,,,,,,,,,,,x,x,,,X,
+i136,Nombre de travailleurs sociaux pour 100 allocataires du RSA,,,,,,,,,,,x,x,,,,X
+i137,Part des communes de plus de 1000 habitants ayant totalement mis en oeuvre leur Plan de mise en accessibilité de la voirie et des aménagements des espaces publics (PAVE),,,,,x,,,,,,x,x,,,,X
+i138,Part des femmes dans l'exécutif communautaire,,,,,,,,,,,x,x,,,,X
+i139,Identification d'un agent-référent sur les enjeux de cohésion sociale,,,,,,,,,,,x,x,x,x,,X
+i140,Identification d'un élu-référent sur les enjeux de cohésion sociale,,,,,,,,,,,x,x,x,x,,X
+i141,Inventaire des zones humides,,,,,,x,,,,,,,,x,,X
+i142,Taux de concentration de l'emploi,,,,x,,,x,,,,,x,,,X,
+i143,Existence d'une recyclerie ou ressourcerie intercommunale (avec un soutien ou une implication de l'EPCI dans la gouvernance-gestion de l'équipement),,,,,,,x,,,,,,,x,,X
+i144,Taux de couverture des besoins en électricité par les productions énergétiques renouvelables locales,,x,,,,,,,,,,,,x,X,
+i145,Taux de couverture des besoins en chaleur par les productions énergétiques renouvelables locales,,x,,,,,,,,,,,,x,X,
+i146,"Existence de capacités de back-up électriques pour certains bâtiments publics critiques (batterie, groupe électrogène, système ENR avec onduleur...)",,x,,,,,,,,x,,,x,,,X
+i147,Distance à la pharmacie la plus proche,,,,x,x,,,,,,,x,x,,X,
+i148,Distance au service d'urgence le plus proche,,,,x,x,,,,,x,,x,x,,X,
+i149,Nombre d'aires de covoiturage pour 10.000 habitants,,,,x,,,,,,,,x,,x,,X
+i150,Nombre de trajets en covoiturage pour 10.000 habitants,,,,x,,,,,,,,x,,x,X,
+i151,Durée moyenne de déplacement par jour et par personne,,,,x,,,,,,,,x,,,X,
+i152,Nombre d'ateliers de réparation vélo pour 1000 hab,,,,x,,,,,,,x,x,,x,,X
+i153,Part des communes disposant d'un registre tenu à jour des personnes vulnérables,,,,,,,,,,x,x,x,x,,,X
+i154,Existence d'un PiCS à jour et mis en oeuvre,,,,,,,,,,x,,,x,,,X
+i155,Part des risques majeurs Georisques bénéficiant d'une fiche-action dans le PiCS,,,,,,,,,,x,,,x,,,X
+i156,Nombre de sites SEVESO sur le territoire,,,,,x,x,x,,,x,,,x,,X,
+i157,Nombre de licenciés sportifs pour 100 habitants,,,,,x,,,,,,x,x,,,X,
+i158,Nombre d'arrêtés de catastrophes naturelles publiés au JO rapporté à la superficie du territoire,,,,,,x,,,,x,,,x,,X,
+i159,"Existence de moyens de communication autonomes pour la gestion de crise (radio, talkie-walkie, téléphone satellite...)",,,,,,,,x,,x,,,x,,,X
+i160,Engagement du territoire dans le programme “Territoire Engagé Transition Ecologique (TETE) et niveau de labellisation,,x,x,x,,x,,,,,x,,,x,,X
+i161,Indice de vieillissement (nombre de plus de 65 ans pour 100 jeunes de moins de 20 ans),,,,,,,,,,,x,x,,,X,
+i162,Taux de suicides,,,,,x,,,,,,x,x,,,X,
+i163,Réalisation d'au moins une action de sensibilisation des citoyens à la culture du risque par commune et par an,,,,,,,,x,,x,,,x,,,X
+i164,"Part de la population en emploi précaire
+",,,,,,,x,,,x,x,x,,,X,
