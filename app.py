@@ -387,7 +387,7 @@ st.markdown(
       <h3>Mode d'emploi</h3>
       <ol>
         <li>Sélectionnez l'EPCI ciblé dans la liste.</li>
-        <li>Chargez votre fichier <strong>epci_22</strong> (.xlsx).</li>
+        <li>Chargez votre fichier <strong>epci</strong> (.xlsx).</li>
         <li>Cliquez sur <strong>Calculer</strong> pour générer les deux CSV.</li>
       </ol>
     </div>
