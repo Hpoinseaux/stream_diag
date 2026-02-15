@@ -436,7 +436,6 @@ if st.button(
 ):
     params = load_params()
     mapping = load_mapping()
-    external_coeffs = load_external_coeffs()
     external_dataset = load_external_scores_dataset()
     try:
         epci_df = pd.read_excel(uploaded_epci, dtype=str)
