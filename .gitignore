@@ -23,6 +23,6 @@ Thumbs.db
 .ipynb_checkpoints/
 
 #autres
-generate_external_scores.py
 score_externe.xlsx
+generate_external_scores.py
 template/
